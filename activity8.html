@@ -1,0 +1,49 @@
+<html> <main></main>
+    <head>
+    <title>My Doctor's Appointment</title>
+ </head>
+ <body>
+    <h1>My Doctor's Appointment</h1>
+    <p>Fill out the form below to schedule your appointment.</p>
+    <hr>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label> Your Name:</label><br>
+            <input type="text" id="name" placeholder="Enter your full name"><br><br>
+            <lable>Patient ID:</lable>
+            <input type="password" id="pid" placeholder="Your secreet ID"><br><br>
+     <label> Date:</label><br>
+        <input type="date" id="dob"><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Appointment Details</legend>
+            <label>Reason for Visit:</label><br>
+            <input type="radio" name="reason" value="fever">Fever<br>
+            <input type="radio" name="reason" value="cough">Cough<br>
+            <input type="radio" name="reason" value="headache">Headache<br>
+     <label>Choose Your Doctor </label><br>
+        <select id="doctor">
+            <option value="">Select a doctor</option>
+            <option value="dr-Ray">Dr Ray-General</option>
+             </select><br><br>
+        <textarea id="notes" rows="4" cols="4" placeholder="Additional notes or questions"></textarea><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>preferred days</legend><br>
+            <input type="checkbox" value="monday">Monday<br><br>
+        </fieldset>
+            
+
+        
+        <input type ="submit" value="book an appointnent"><br><br>
+        
+        </label>
+
+    </form>
+    
+    
+    
+ </body>
+
+</html>
